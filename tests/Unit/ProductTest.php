@@ -1,0 +1,28 @@
+<?php
+
+namespace Tests\Unit;
+
+use App\Models\Product;
+use App\Models\Retailer;
+use App\Models\Stock;
+use Tests\TestCase;
+
+class ProductTest extends TestCase
+{
+    public function test_it_checks_for_products_at_retailers()
+    {
+        $switch = Product::create(['name' => 'Nintendo Switch']);
+        $bestBuy = Retailer::create(['name' => 'Best Buy']);
+
+        $this->assertFalse($switch->inStock());
+
+        $stock = new Stock([
+            'price' => 1000,
+            'url' => 'http://foo.com',
+            'sku' => '12252',
+            'in_stock' => true,
+        ]);
+        $bestBuy->addStock($switch, $stock);
+        $this->assertTrue($switch->inStock());
+    }
+}
