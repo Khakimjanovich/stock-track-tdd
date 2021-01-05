@@ -16,6 +16,9 @@
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="69420ca3-ea7a-4832-a658-695849594b7e" />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -135,6 +138,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1majTGFJNGlFkvBiV4KT4hDTqGQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -204,12 +208,23 @@
       <workItem from="1609740215554" duration="14597000" />
       <workItem from="1609760855495" duration="116000" />
       <workItem from="1609760980330" duration="16482000" />
-      <workItem from="1609838620346" duration="2624000" />
+      <workItem from="1609838620346" duration="2964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
